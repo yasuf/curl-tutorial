@@ -1,0 +1,5 @@
+CURL -X GET localhost:3000/
+
+CURL -X PUT localhost:3000/
+
+CURL -X POST -d '{"test": 123}' -H "Content-Type:application/json" localhost:3000/
